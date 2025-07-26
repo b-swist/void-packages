@@ -1,0 +1,14 @@
+# Template file for 'river-luatile'
+pkgname=river-luatile
+version=0.1.4
+revision=1
+archs="i686 x86_64"
+build_style=cargo
+hostmakedepends="pkg-config"
+makedepends="LuaJIT-devel"
+short_desc="Program that lets you write your own river layout generator in Lua"
+maintainer="b-swist <bswist@protonmail.com>"
+license="GPL-3.0-only"
+homepage="https://github.com/MaxVerevkin/river-luatile"
+distfiles="https://github.com/MaxVerevkin/river-luatile/archive/refs/tags/v${version}.tar.gz"
+checksum=b0751192d484d6a418009eea5f2f84a05574c3ba00a51e0b82254fa3778de80e
