@@ -1,0 +1,18 @@
+# Template file for 'yolk'
+pkgname=yolk
+version=0.3.4
+revision=1
+build_style=cargo
+depends="git"
+checkdepends="git"
+short_desc="Templated dotfile manager without template files"
+maintainer="b-swist <bswist@protonmail.com>"
+license="MIT"
+homepage="https://elkowar.github.io/yolk"
+changelog="https://raw.githubusercontent.com/elkowar/yolk/refs/heads/main/CHANGELOG.md"
+distfiles="https://github.com/elkowar/yolk/archive/refs/tags/v${version}.tar.gz"
+checksum="cb053185459d2a60fca0efcbfa3b9bbdbd77ca91e2cfbe7371ddc188d004efe8"
+
+post_install() {
+	vlicense LICENSE.md LICENSE
+}
