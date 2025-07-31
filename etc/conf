@@ -1,0 +1,2 @@
+XBPS_CFLAGS="-O2 -pipe -march=native"
+XBPS_SUCMD="doas /bin/sh -c"
